@@ -12,7 +12,8 @@ import { useAuth } from "./_core/hooks/useAuth";
 import { Loader2 } from "lucide-react";
 
 function Router() {
-  const { loading } = useAuth();
+  // const { loading } = useAuth();
+  const loading = false;
 
   if (loading) {
     return (
