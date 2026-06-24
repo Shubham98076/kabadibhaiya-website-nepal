@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kabadibhaiya — Sell scrap in minutes</title>
+  <meta name="description" content="Kabadibhaiya connects households & businesses with verified kabadi partners in Kathmandu for fair, fast scrap pickup." />
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="container nav-inner">
+       <div class="logo-container">
+      <img src="Images/logo.png.png" alt="Kabadibhaiya Logo" class="logo">
+      <h1>KABADIभैया</h1>
+      </div>
+      <div class="nav-cta">
+        <a href="#book" class="btn primary">Book a pickup</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="section">
+    <div class="container grid grid-2">
+      <div>
+        <h1 class="title">Sell scrap in minutes. Fair prices. Doorstep pickup.</h1>
+        <p class="subtitle">Kabadibhaiya connects households & businesses with verified kabadi partners across Kathmandu.</p>
+        <div class="cta-row">
+          <a href="#book" class="btn primary">Book a pickup</a>
+          <a href="#partners" class="btn">Become a partner</a>
+        </div>
+        <div class="hero-kpis">
+          <span>📱 PWA-ready</span>
+          <span>♻️ Recycle more</span>
+          <span>🚚 City-wide pickups</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="card">
+          <div class="pill">Live price hint (NPR/kg)</div>
+          <div class="grid grid-2">
+            <div class="card soft">
+              <div class="muted">Plastic (Mixed)</div>
+              <div class="price">रु 15–30</div>
+              <div class="note">PET/HDPE better rates</div>
+            </div>
+            <div class="card soft">
+              <div class="muted">Paper/Cardboard</div>
+              <div class="price">रु 12–25</div>
+              <div class="note">Dry cardboard pays more</div>
+            </div>
+            <div class="card soft">
+              <div class="muted">Mixed Metals</div>
+              <div class="price">रु 40–90</div>
+              <div class="note">Aluminum/copper premium</div>
+            </div>
+            <div class="card soft">
+              <div class="muted">Glass Bottles</div>
+              <div class="price">रु 2–6</div>
+              <div class="note">Clean, sorted glass</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- BOOKING FORM -->
+  <section id="book" class="section">
+    <div class="container">
+      <div class="card">
+        <h2 class="h2">Book a pickup</h2>
+        <form class="grid" onsubmit="alert('Received! We’ll call to confirm.'); this.reset(); return false;">
+          <div class="row">
+            <div>
+              <label>Full name</label>
+              <input required placeholder="e.g., Sagar Thapa" />
+            </div>
+            <div>
+              <label>Phone number</label>
+              <input required placeholder="98XXXXXXXX" />
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label>Address</label>
+              <input required placeholder="Street, ward, landmark" />
+            </div>
+            <div>
+              <label>Ward</label>
+              <input placeholder="Ward no." />
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label>Scrap type</label>
+              <select>
+                <option>Plastic</option>
+                <option>Paper/Cardboard</option>
+                <option>Metal</option>
+                <option>Glass</option>
+                <option>E-waste</option>
+              </select>
+            </div>
+            <div>
+              <label>Approx. weight (kg)</label>
+              <input placeholder="~ kg" />
+            </div>
+          </div>
+          <div>
+            <label>Notes (optional)</label>
+            <textarea rows="3" placeholder="Gate info, floor, special items…"></textarea>
+          </div>
+          <div class="row">
+            <div>
+              <label>Preferred time</label>
+              <select>
+                <option>Morning (8–11)</option>
+                <option>Afternoon (12–3)</option>
+                <option>Evening (4–7)</option>
+              </select>
+            </div>
+            <div class="row-end">
+              <button class="btn primary" type="submit">Confirm booking</button>
+            </div>
+          </div>
+          <div class="note">*Rates vary by quality, quantity, and market. Final offer confirmed by partner.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING GRID -->
+  <section class="section">
+    <div class="container">
+      <h2 class="h2">Example live pricing (NPR / kg)</h2>
+      <div class="grid grid-4">
+        <div class="card pricing-card"><span class="tag"></span>Plastic (Mixed)
+          <div class="price">रु 15–30</div><div class="note">Clean & sorted pays more</div></div>
+        <div class="card pricing-card"><span class="tag"></span>Paper/Cardboard
+          <div class="price">रु 12–25</div><div class="note">Dry cardboard &gt; mixed paper</div></div>
+        <div class="card pricing-card"><span class="tag"></span>Mixed Metals
+          <div class="price">रु 40–90</div><div class="note">Alu/Cu fetch premium</div></div>
+        <div class="card pricing-card"><span class="tag"></span>Glass Bottles
+          <div class="price">रु 2–6</div><div class="note">Clean, sorted only</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section">
+    <div class="container">
+      <h2 class="h2">How it works</h2>
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="kpi">📞 Request pickup</div>
+          <div class="muted mt6">Book online or call/WhatsApp; upload photos for faster quotes.</div>
+        </div>
+        <div class="card">
+          <div class="kpi">🚚 We collect & weigh</div>
+          <div class="muted mt6">Verified kabadi partner arrives, weighs on digital scale, pays fair price.</div>
+        </div>
+        <div class="card">
+          <div class="kpi">🏭 Recycle & track</div>
+          <div class="muted mt6">Material goes to recyclers; get digital receipt & impact stats.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTNER SIGNUP -->
+  <section id="partners" class="section">
+    <div class="container">
+      <div class="card gradient">
+        <h2 class="h2">Kabadi partners — grow with us</h2>
+        <div class="grid grid-2">
+          <ul class="muted bullet">
+            <li>✅ Steady leads & scheduled routes</li>
+            <li>✅ Transparent pricing & digital records</li>
+            <li>✅ Faster payments & support</li>
+          </ul>
+          <form class="grid">
+            <div class="row">
+              <div><label>Shop name</label><input placeholder="e.g., Shree Kabadi Traders" /></div>
+              <div><label>Owner name</label><input placeholder="e.g., Ram Karki" /></div>
+            </div>
+            <div class="row">
+              <div><label>Owner phone</label><input placeholder="98XXXXXXXX" /></div>
+              <div><label>Covered areas</label><input placeholder="Wards/locations you can serve" /></div>
+            </div>
+            <div><button class="btn" type="button" onclick="alert('Thanks! We will contact you.')">Join now</button></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Kabadibhaiya • Kathmandu</div>
+      <div class="muted links">
+        <a href="#book">Book a pickup</a>
+        <a href="#partners">Partners</a>
+        <a href="#" onclick="alert('Coming soon')">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

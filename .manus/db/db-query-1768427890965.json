@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO pricing (category, minPrice, maxPrice, description, active) VALUES\n('Plastic (Mixed)', 1500, 3000, 'PET/HDPE better rates', 1),\n('Paper/Cardboard', 1200, 2500, 'Dry cardboard pays more', 1),\n('Mixed Metals', 4000, 9000, 'Aluminum/copper premium', 1),\n('Glass Bottles', 200, 600, 'Clean, sorted only', 1),\n('E-waste', 5000, 15000, 'Electronics and batteries', 1);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user Q49Z65t7mPwgUUh.root --database 5jMjZggBARaeimgRXJrAYS --execute INSERT INTO pricing (category, minPrice, maxPrice, description, active) VALUES\n('Plastic (Mixed)', 1500, 3000, 'PET/HDPE better rates', 1),\n('Paper/Cardboard', 1200, 2500, 'Dry cardboard pays more', 1),\n('Mixed Metals', 4000, 9000, 'Aluminum/copper premium', 1),\n('Glass Bottles', 200, 600, 'Clean, sorted only', 1),\n('E-waste', 5000, 15000, 'Electronics and batteries', 1);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 1702
+}
